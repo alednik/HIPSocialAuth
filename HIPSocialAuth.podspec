@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.source_files = 'HIPSocialAuth/*.{h,m}'
   s.requires_arc = true
-  s.dependency 'Facebook-iOS-SDK', '~> 4.0'
+  s.dependency 'FBSDKCoreKit', '~> 4.11.0'
+  s.dependency 'FBSDKLoginKit', '~> 4.11.0'
 
 end
