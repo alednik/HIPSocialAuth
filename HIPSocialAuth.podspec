@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency 'FBSDKCoreKit', '~> 4.11.0'
   s.dependency 'FBSDKLoginKit', '~> 4.11.0'
+  s.dependency 'TwitterCore'
 
 end
